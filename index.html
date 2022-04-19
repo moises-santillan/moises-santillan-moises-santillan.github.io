@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+<title>Santillán Lab</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/Agave.jpg"); 
+  min-height: 350px;
+}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 8px;
+  font-size: 20px;
+  border: 1;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-indigo w3-grayscale-min">
+    <div class="dropdown">
+    <button class="dropbtn w3-indigo">Menu</button>
+    <div class="dropdown-content">
+    <a href="#" class="w3-pale-blue">Home</a>
+    <a href="#research" class="w3-pale-blue">Research</a>
+    <a href="#people" class="w3-pale-blue">People</a>
+    <a href="#publications" class="w3-pale-blue">Publications</a>
+    <a href="#courses" class="w3-pale-blue">Courses</a>
+    </div>
+    </div>
+    <!-- 
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-indigo">Home</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#people" class="w3-button w3-block w3-indigo">People</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#publications" class="w3-button w3-block w3-indigo">Publications</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#courses" class="w3-button w3-block w3-indigo">Courses</a>
+    </div>
+    -->
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:60px">Moisés Santillán Lab</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white" style="font-size:30px">@Cinvestav Monterrey</span>
+  </div> 
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-pale-blue w3-grayscale-min w3-large">
+
+<!-- Research Container -->
+<div class="w3-container"  id="research">
+  <div class="w3-content" style="max-width:800px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-indigo w3-wide">RESEARCH</span></h5>
+    <h5>QUANTITATIVE PHYSIOLOGY</h5>
+    <p>We tackle physiological problems at different scales of biological organization: cells, tissues, and organisms. We are particularly interested in understanding a) the mechanisms underlying the dynamic behavior of the studied systems and b) the emergence of collective behaviors as one moves from a finer to a coarser scale of description. We make use of several theoretical and experimental techniques. Among others: mathematical modeling with ode’s and pde's, non-linear dynamics, bifurcation theory, stochastic dynamics, Monte Carlo simulations, cell biology, microfluidics, phase contrast and fluorescence microscopy, image analysis, etc.</p>
+
+<p>Our current projects include:</p>
+
+<ul>
+  <li> Experimental and theoretical study of <em>T. cruzi</em> motility and infectivity.</li>
+  <li> Population dynamics of communities of wild type bacteria.</li>
+  <li> Thermodynamic performance of ATP synthase.</li>
+  <li> Mathematical modelling of mitochondrial dynamics.</li>
+  <li> Glucose homeostasis dynamics.</li>
+</ul>
+    
+  </div>
+</div>
+
+<!-- People Container -->
+
+<div class="w3-container" id="people">
+  <div class="w3-content" style="max-width:800px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-indigo w3-wide">PEOPLE</span></h5>
+    <h5 class="w3-padding-16">PRINCIPAL INVESTIGATOR</h5>
+    <img src="images/msantillan.jpg" style="width:20%">
+    <h5>Moisés Santillán Zerón</h5>
+    <h6>Investigador Cinvestav 3D</h6>
+
+    <p>
+    <strong>Contact</strong><br />
+    Centro de Investigación y de Estudios Avanzados del IPN<br />
+    Unidad Monterrey<br />
+    Vía del Conocimiento 201<br />
+    Parque de Investigación e Innovación Tecnológica<br />
+    66628 Apodaca NL, México<br />
+    Tel: +52 81 11561740 x 4519<br />
+    Email:&nbsp;<a href="mailto:msantillan@cinvestav.mx">msantillan@cinvestav.mx</a>
+    </p>
+
+    <p><strong>Education</strong></p>
+
+    <ul>
+    <li><strong>BSc in Physics, </strong>1992,<strong> </strong>Instituto Politécnico Nacional, Escuela Superior de Física y Matemáticas</li>
+    <li><strong>MSc in Physics, </strong>1995,<strong> </strong>Instituto Politécnico Nacional, Escuela Superior de Física y Matemáticas</li>
+    <li><strong>PhD in Physics, </strong>1996,<strong> </strong>Instituto Politécnico Nacional, Escuela Superior de Física y Matemáticas</li>
+    </ul>
+
+    <p><strong>Professional Appointments</strong></p>
+
+    <ul>
+    <li><strong>Lecturer, </strong>1992-1996,<strong> </strong>Instituto Politécnico Nacional, Escuela Superior de Física y Matemáticas</li>
+    <li><strong>Associate Professor, </strong>1996-2006,<strong> </strong>Instituto Politécnico Nacional, Escuela Superior de Física y Matemáticas</li>
+    <li><strong>Professor, </strong>2006-Present,<strong> </strong>Centro de Investigación y de Estudios Avanzados del IPN, Unidad Monterrey</li>
+    </ul>
+
+    <p><strong>Editorial Boards</strong></p>
+
+    <ul>
+    <li>Frontiers in Systems Biology</li>
+    <li>Lecture Notes in Mathematical Modelling in the Life Sciences (Springer Book Series)</li>
+    <li>In Silico Biology</li>
+    </ul>
+
+    <p><strong>Honors</strong></p>
+
+    <ul>
+    <li><strong>Fellow of the Mexican Academy of Sciences, </strong>since 2003</li>
+    <li><strong>Member of Mexico&rsquo;s National Researchers&rsquo; System, </strong>since 1995<br />
+    1995-1998, Candidate<br />
+    1998-2004, National Researcher I<br />
+    2005-2011, National Researcher II<br />
+    2012-2031, National Researcher III</li>
+    <li><strong>Associate of the International Centre for Theoretical Physics</strong><br />
+    2009-2016, Regular Associate<br />
+    2019-2024, Senior Associate</li>
+    <li><strong>Member of the Centre for Applied Mathematics in Bioscience and Medicine (Canada), </strong>since 2010</li>
+    </ul>
+
+    <p><strong>Scientific Societies</strong></p>
+
+    <ul>
+    <li><a href="http://www.biophysics.org" target="_blank">Biophysical Society</a></li>
+    <li><a href="http://www.smb.org" target="_blank">Society for Mathematical Biology</a></li>
+    <li><a href="http://www.smm.org.mx" target="_blank">Sociedad Matemática Mexicana </a></li>
+    </ul>
+
+    <p><strong>Links</strong></p>
+
+    <ul>
+    <li><a href="https://publons.com/researcher/324545/moises-santillan/" target="_blank">Publons Profile</a></li>
+    <li><a href="http://scholar.google.com.mx/citations?hl=en&amp;user=GE_VKVkAAAAJ" target="_blank">Scholar Google Profile</a></li>
+    <li><a href="http://www.mendeley.com/profiles/moises-santillan/" target="_blank">Mendeley Profile</a></li>
+    <li><a href="http://orcid.org/0000-0001-8605-7451" target="_blank">ORCID Profile</a></li>
+    </ul>
+
+    <h5 class="w3-padding-32">POSTDOCS & STUDENTS</h5>
+
+    <h5>Postdocs</strong></h5>
+
+    <ul>
+     <li>Eloy Contreras Ortiz</li>
+    </ul>
+    
+    <h5>PhD Students</strong></h5>
+    
+    <ul>
+     <li>Laura Sánchez Gómez</li>
+     <li>Gemma Gabriela Fernández Mendoza</li>
+     <li>Moisés Martínez Estrada</li>
+    </ul>
+    
+    <h5>MSc Students</strong></h5>
+    
+    <ul>
+     <li>Ángel de Jesús Zamora Ramírez</li>
+     <li>Daniel Alejandro Hernández Mendoza</li>
+     <li>Juan José Trejo Aguilar</li>
+    </ul>
+    
+    <h5>Former Postdocs</strong></h5>
+    
+    <ul>
+     <li>Saúl Díaz-Infante Velazco, currently @ Universidad de Sonora</li>
+     <li>Jesús G. Rodríguez-González, currently @ Cinvestav</li>
+    </ul>
+    
+    <h5>Former PhD Students</strong></h5>
+    
+    <ul>
+     <li>Ricardo Páez-Hernández, currently @ Universidad Autónoma Metropolitana</li>
+     <li>Orlando Díaz-Hernández, currently @ Universidad Autónoma de Chiapas</li>
+     <li>Eder Zavala López, currently @ University of Birmingham</li>
+     <li>Areli Hernández-Valdez, currently self-employed</li>
+     <li>Margarita Resendiz-Antonio</li>
+     <li>Norma C. Pérez-Rosas, currently @ Instituto Politécnico Nacional</li>
+     <li>David I. Orozco-Gómez, currently @ Gincko Bioworks</li>
+     <li>Oscar Adrián&nbsp;Gallardo Navarro, currently @ Weizmann Institute</li>
+     <li>José Guadalupe&nbsp;Guerrero Morín, currently self-employed</li>
+     <li>Jorge Adrián Arias-del-Ángel, currently @ University of Oxford</li>
+     <li>Jesús Pantoja Hernández, currently @ UNAM</li>
+    </ul>    
+
+  
+  </div>
+</div>
+
+  
+<!-- Publications Container -->
+<div class="w3-container" id="publications">
+  <div class="w3-content" style="max-width:800px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-indigo w3-wide">PUBLICATIONS</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="abreMenu(event, 'papers');" id="miEnlace">
+        <div class="w3-col s6 tablink">Papers</div>
+      </a>
+      <a href="javascript:void(0)" onclick="abreMenu(event, 'books');">
+        <div class="w3-col s6 tablink">Books</div>
+      </a>
+      <a href="javascript:void(0)" onclick="abreMenu(event, 'essays');">
+        <div class="w3-col s6 tablink">Essays</div>
+      </a>
+    </div>
+
+    <div id="papers" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Journal Papers</h5>
+      <p><strong>2021-2022</strong></p>
+
+      <ol>
+       <li>Humberto Reyes-Pardo, Daniel P. Sánchez-Herrera, and <b>Moisés Santillán</b> (2022)&nbsp;On the effects of diabetes mellitus on the mechanical properties of DRG sensory neurons and their possible relation with diabetic neuropathy, <i>Physical Biology</i>, <b>In Press</b>. <a href="https://doi.org/10.1088/1478-3975/ac6722" target="_blank">DOI: 10.1088/1478-3975/ac6722</a></li>
+       <li>Marc R. Roussel,<b> Moisés Santillán </b>(2022)&nbsp;Biochemical Problems, Mathematical Solutions, <i>AIMS Mathematics</i>, <b>7(4)</b>: 5662-5669. <a href="https://doi.org/10.3934/math.2022313" target="_blank">DOI: 10.3934/math.2022313</a></li>
+       <li>J. Pantoja-Hernández, Víctor F. Breña-Medina,&nbsp;<strong>M. Santillán&nbsp;</strong>(2021) Hybrid reaction-diffusion and clock-and-wavefront model for the arrest of oscillations in the somitogenesis segmentation clock. <em>Chaos</em>&nbsp;<strong>31(6):</strong>&nbsp;063107&nbsp;<a href="https://doi.org/10.1063/5.0045460" target="_blank">DOI: 10.1063/5.0045460</a>. Paper highlited as noteworthy by the journal editors. Press release:&nbsp;<a href="https://doi.org/10.1063/10.0005306" target="_blank">https://doi.org/10.1063/10.0005306</a></li>
+       <li>J. Pantoja-Hernández and&nbsp;<strong>M. Santillán&nbsp;</strong>(2021) Segmentation-clock synchronization in circular-lattice networks of embryonic presomitic-mesoderm cells. <em>AIMS Mathematics</em>&nbsp;<b> 6(6):</b>&nbsp;5817-5836&nbsp;<a href="https://doi.org/10.3934/math.2021344" target="_blank">DOI: 10.3934/math.2021344</a></li>
+      </ol>
+      
+      <p><strong>2019-2020</strong></p>
+      
+      <ol>
+       <li>J. A. Arias-Del-Angel, J. M. Santana-Solano,&nbsp;<strong>M. Santillán,</strong> R. G. Manning-Cela&nbsp;(2020) Motility patterns of Trypanosoma cruzi trypomastigotes correlate with the efficiency of parasite invasion in vitro. <em>Scientific Reports</em>&nbsp;<b>10:</b>&nbsp;15894&nbsp;<a href="https://doi.org/10.1038/s41598-020-72604-4" target="_blank">DOI: 10.1038/s41598-020-72604-4</a></li>
+       <li>J. A. Arias-Del-Angel, R. G. Manning-Cela, <strong>M. Santillán</strong>&nbsp;(2020) Dynamics of mammalian cell infection by T. cruzi trypomastigotes. <em>Frontiers in Microbiology</em>&nbsp;<strong>11: </strong>559660<a href="https://doi.org/10.3389/fmicb.2020.559660" target="_blank"> DOI: 10.3389/fmicb.2020.559660</a></li>
+       <li>J. G. Guerrero and <strong>M. Santillán</strong>&nbsp;(2020) Crosstalk between the circadian clock and the mTORC1 pathway. <em>Journal of Theoretical Biology</em>&nbsp;<strong>501: </strong>110360<a href="https://doi.org/10.1016/j.jtbi.2020.110360" target="_blank"> DOI: 10.1016/j.jtbi.2020.110360</a></li>
+       <li>O. A. Gallardo Navarro and <strong>M. Santillán </strong>(2019)&nbsp; Three-way interactions in an artificial community of bacterial strains directly isolated from the environment and their effect on the system population dynamics, <em>Frontiers in Microbiology </em><strong>10</strong><strong>:</strong> 2555<strong> </strong> <a href="https://doi.org/10.3389/fmicb.2019.02555" target="_blank">DOI: 10.3389/fmicb.2019.02555</a></li>
+       <li>L. Sánchez-Gómez, A. Guerrero-Hernández, and <strong>M. Santillán </strong>(2019)&nbsp; Polymerization of sarcoplasmic-reticulum calcium-binding proteins might explain observed reticulum kinetics-on-demand behavior, <em>Journal of Theoretical Biology </em><strong>482</strong><strong>: </strong>109986<strong> </strong><a href="https://doi.org/10.1016/j.jtbi.2019.08.017" target="_blank">DOI: 10.1016/j.jtbi.2019.08.017</a></li>
+       <li>A. Vázquez-Jiménez, <strong>M. Santillán, </strong>and J. Rodríguez-González (2019) Characterization of intrinsic and extrinsic noise effects in positively regulated genes, <em>Journal of Biological Systems</em> <strong>27(3): </strong>383-398 <a href="http://dx.doi.org/10.1142/S0218339019500165" target="_blank">DOI: 10.1142/S0218339019500165</a></li>
+       <li>L. Diambra and <strong>M. Santillán </strong>(2019) Editorial: Emergent Effects of Noise in Biology: From Gene Expression to Cell Motility, <em>Frontiers in Physics </em><strong>7:</strong> 83 <a href="https://doi.org/10.3389/fphy.2019.00083" target="_blank">DOI: 10.3389/fphy.2019.00083</a></li>
+       <li>D. I. Ororzco-Gómez, J. E. Sosa-Hernández, O. A. Gallardo-Navarro, J. Santana-Solano, and <strong>M. Santillán</strong> (2019) Bistable behavior and medium-dependent post-translational regulation of the tryptophanase operon regulatory pathway in <em>Escherichia coli</em>. <em>Scientific Reports</em> <strong>9(1):&nbsp;</strong>5451 <a href="http://doi.org/10.1038/s41598-019-41856-0" target="_blank">DOI: 10.1038/s41598-019-41856-0</a></li>
+       <li>O. Díaz-Hernández, E. Ramírez-Álvarez, A. Flores-Rosas, C. Enríquez-Flores, <strong>M. Santillán,</strong> P. Padilla-Longoria, and G. Escalera-Santos (2019) Amplitude death induced by intrinsic noise in a system of three coupled stochastic Brusselators, <em>Journal of Computational and Nonlinear Dynamics</em><strong> 14(4): </strong>041004<strong> </strong><a href="http://doi.org/10.1115/1.4042322" target="_blank">DOI: 10.1115/1.4042322</a></li>
+      </ol>
+      
+      <p><strong>2017-2018</strong></p>
+      
+      <ol>
+       <li>J. González-Ayala, <strong>M. Santillán</strong>, I. Reyes-Ramírez, M. Jesús-Santos, A. Calvo-Hernández, and J. M. Mateos-Roco (2018) Optimization and Stability of Heat Engines: The Role of Entropy Evolution, <em>Entropy</em> <strong>20(11): </strong>865 <a href="https://doi.org/10.3390/e20110865" target="_blank">DOI: 10.3390/e20110865</a></li>
+       <li>J. González-Ayala, <strong>M. Santillán</strong>, I. Reyes-Ramírez, and A. Calvo-Hernández (2018) Link between optimization and local stability of a low dissipation heat engine: dynamic and energetic behaviors, <em>Physical Review E</em> <strong>98:</strong> 032142 <a href="http://dx.doi.org/10.1103/PhysRevE.98.032142" target="_blank">DOI: 10.1103/PhysRevE.98.032142</a></li>
+       <li><strong>M. Santillán </strong>(2018)&nbsp;Synchronization dynamics of two mutually coupled 555-IC based electronic oscillators, <em>Revista Mexicana de Física </em><strong>64:</strong> 107-115 <a href="https://doi.org/10.31349/RevMexFis.64.107" target="_blank">DOI: 10.31349/RevMexFis.64.107</a></li>
+       <li>A. Vázquez-Jiménez, <strong>M. Santillán,</strong>&nbsp;and J. Rodríguez-González (2017) How the extrinsic noise in gene expression can be controlled? <em>IFAC-PapersOnline <strong>50: </strong>15092-15096</em> <a href="https://doi.org/10.1016/j.ifacol.2017.08.2236" rel="noopener" target="_blank">DOI: 10.1016/j.ifacol.2017.08.2236</a></li>
+       <li>I. Reyes-Ramírez, J. González-Ayala, A. Calvo-Hernández, and , <strong>M. Santillán</strong>&nbsp;<strong> </strong>(2017) Local stability analysis of a low dissipation heat engine working at maximum power output, <em>Physical Review E</em> <strong>96:</strong> 042128 <a href="https://doi.org/10.1103/PhysRevE.96.042128" rel="noopener" target="_blank">DOI: 10.1103/PhysRevE.96.042128</a></li>
+       <li>J. E. Sosa-Hernández, <strong>M. Santillán,</strong> and J. Santana-Solano (2017) Motility of <em>Escherichia coli</em> in a quasi-two-dimensional porous medium, <em>Physical Review E</em> <strong>95: </strong>032404 <a href="https://doi.org/10.1103/PhysRevE.95.032404" rel="noopener" target="_blank">DOI: 10.1103/PhysRevE.95.032404</a></li>
+      </ol>
+      
+      <p><strong>2015-2016</strong></p>
+      
+      <ol>
+       <li><strong>M. Santillán</strong> (2016) Periodic forcing of a 555-IC based electronic oscillator in the strong coupling limit, <em>International Journal of Bifurcation and Chaos</em> <strong>26:</strong> 1630007<strong> </strong><a href="http://dx.doi.org/10.1142/S021812741630007X" rel="noopener" target="_blank">DOI: 10.1142/S021812741630007X</a></li>
+       <li>E. Sosa-Hernández, G. Ballestero-Rodea, J. A. Arias-del-Angel, D. Dévora-Canales, R. Manning-Cela, J. Santana-Solano, and <strong>M. Santillán</strong> (2015) Experimental and mathematical-modeling characterization of <em>Trypanosoma cruzi</em> epimastigote motility, <em>PLoS ONE</em> <strong>10: </strong>e0142478 <a href="http://dx.doi.org/10.1371/journal.pone.0142478" rel="noopener" target="_blank">DOI: 10.1371/journal.pone.0142478</a></li>
+       <li><span class="person">N. C. Pérez-Rosas, N.</span>L. Gómez-Viquez, A. Dagnino-Acosta, <strong>M. Santillán</strong>, and A. Guerrero-Hernández (2015) Kinetics on demand is a simple mathematical solution that fits recorded caffeine-induced luminal SR Ca<sup>2+</sup> changes in smooth muscle cells, <em>PLoS ONE </em><strong>10:</strong><strong> </strong>e0138195<strong> </strong><a href="http://dx.doi.org/10.1371/journal.pone.0138195" rel="noopener" target="_blank">DOI: 10.1371/journal.pone.0138195</a></li>
+       <li>R. Zapién-Campos, G. Olmedo-Alvarez and <strong>M. Santillán </strong>(2015) Antagonistic interactions are sufficient to explain self-assemblage of bacterial communities in a homogeneous environment: a computational modeling approach, <em>Frontiers in Microbiology </em><strong>6: </strong>489 <a href="http://dx.doi.org/10.3389/fmicb.2015.00489" rel="noopener" target="_blank">DOI: 10.3389/fmicb.2015.00489</a></li>
+       <li>M. C. Mackey, <strong>M. Santillán,</strong> M. Tyran-Kamińska, and E. S. Zeron (2015) The utility of simple mathematical models in understanding gene regulatory dynamics, <em>In Silico Biol. </em><strong>12: </strong>22-53 <a href="http://dx.doi.org/10.3233/ISB-140463" rel="noopener" target="_blank">DOI: 10.3233/ISB-140463</a></li>
+      </ol>
+      
+      <p><strong>2013-2014 </strong></p>
+      
+      <ol>
+       <li>R. S. Pérez-Alfaro, <strong>M. Santillán</strong>, E. Galán-Vázquez, and A. Martínez-Antonio (2014) Regulatory switches for hierarchichal use of carbon sources in <em>E. coli</em>, <em>Network Biology</em> <strong>4:</strong> 95-108</li>
+       <li>M. Reséndiz-Antonio and <strong>M. Santillán</strong> (2014) On the dynamical vs. thermodynamical performance of a beta-type Stirling engine, <em>Phys. A</em> <strong>409:</strong> 162-174 <a href="http://dx.doi.org/10.1016/j.physa.2014.04.040" rel="noopener" target="_blank">DOI: 10.1016/j.physa.2014.04.040</a></li>
+       <li>E. Salazar-Cavazos and <strong>M. Santillán</strong> (2014) Optimal performance of the tryptophan operon of <em>E. coli</em>: a stochastic, dynamical, mathematical-modeling approach, <em>Bull. Math. Biol.</em> <strong>76:</strong> 314-334 <a href="http://dx.doi.org/10.1007/s11538-013-9920-8" rel="noopener" target="_blank">DOI: 10.1007/s11538-013-9920-8</a></li>
+       <li>M. C. Mackey and <strong>M. Santillán</strong> (2013) Andrew Fielding Huxley (1917-2012), <em>Notices of the AMS</em> <strong>576:</strong> 576-584 <a href="http://dx.doi.org/10.1090/noti998" rel="noopener" target="_blank">DOI: 10.1090/noti998</a></li>
+       <li><strong>M. Santillán </strong>and H. Qian (2013) Stochastic thermodynamics across scales: emergent inter-attractoral discrete Markov jump process and its underlying continuous diffusion, <em>Physica A</em> <strong>392: </strong>123-135 <a href="http://dx.doi.org/10.1016/j.physa.2012.08.019" rel="noopener" target="_blank">DOI: 10.1016/j.physa.2012.08.019</a></li>
+       <li>R.-A. Pérez-Gutiérrez, V. López-Ramírez, A. Islas, L. D. Alcaraz, I. Hernandez-González, B. C. Luna Olivera, <strong>M. Santillán</strong>, L. Eguiarte, V. Souza, M. Travisano, and G. Olmedo-Alvarez (2013) Antagonism influences assembly of a Bacillus guild in a local community and is depicted as a food-chain network, <em>ISME J. </em><strong>7:</strong> 487-497<strong> </strong><a href="http://dx.doi.org/10.1038/ismej.2012.119" rel="noopener" target="_blank">DOI: 10.1038/ismej.2012.119</a></li>
+      </ol>
+      
+      <p><strong>2011-2012</strong></p>
+      
+      <ol>
+       <li>A. Martínez-Antonio, D. A. Velázquez-Ramírez, J. Sánchez-Mondragón, and <strong>M. Santillán</strong> (2012) Hierarchical dynamics of a transcription factor network in <em>E. coli</em>, <em>Molec. Biosys. </em><strong>8:</strong> 2932-2936 <a href="http://dx.doi.org/10.1039/c2mb25236h" rel="noopener" target="_blank">DOI: 10.1039/c2mb25236h</a></li>
+       <li>C. Zamora-Chimal, <strong>M. Santillán,</strong> and J. Rodríguez-González (2012) Influence of the feedback loops in the <em>trp</em> operon of <em>B. subtilis</em> on the system dynamic response and noise amplitude, <em>J. Theor. Biol. </em><strong>317:</strong> 119-131. DOI: <a href="http://dx.doi.org/10.1016/j.jtbi.2012.06.014" id="ddDoi" target="doilink">10.1016/j.jtbi.2012.06.014</a></li>
+       <li>L. U. Aguilera, B. E. Galindo, D. Sánchez, and <strong>M. Santillán</strong> (2012) What is the core oscillator in the speract-activated pathway of the <em>Strongylocentrotus purpuratus</em> sperm flagellum? <em>Biophys J.</em> <strong>102:</strong> 2481-2488. <a href="http://dx.doi.org/10.1016/j.bpj.2012.03.075" rel="noopener" target="_blank">DOI: 10.1016/j.bpj.2012.03.075</a></li>
+       <li>E. Zavala-López and <strong>M. Santillán</strong> (2012) An analysis of overall network architecture reveals an infinite-period bifurcation underlying oscillation arrest in the segmentation clock, <em>Math. Model. Nat. Phenom. </em><strong>7: </strong>95-106. <a href="http://dx.doi.org/10.1051/mmnp/20127605" rel="noopener" target="_blank">DOI: 10.1051/mmnp/20127605</a></li>
+       <li>G. Ballesteros-Rodea, <strong>M. Santillán</strong>, M. Cruz-Aguilar, et al. (2012) The alternative products of <em>Trypanosoma cruzi</em> LYT1 have different localization patterns, <em>Vet. Mex.</em> <strong>43:</strong> 29-43. <a href="http://ref.scielo.org/crxf28" rel="noopener" target="_blank" title="http://revistaveterinaria.fmvz.unam.mx/fmvz/revvetmex/a2012/rvmv43n1/rvmv43104.pdf">ref.scielo.org/crxf28</a></li>
+       <li>G. Ballesteros-Rodea, <strong>M. Santillán</strong>, S. Martínez-Calvillo and R. G. Manning-Cela (2012) Flagellar motility of <em>Trypanosoma cruzi</em> epimastigotes, <em>J. Biomed. Biotechnol.</em> <strong>2012:</strong> 520380. <a href="http://dx.doi.org/10.1155/2012/520380" rel="noopener" target="_blank" title="http://dx.doi.org/10.1155/2012/520380">DOI: 10.1155/2012/520380</a></li>
+       <li><strong>M. Santillán</strong> (2011) Dynamic stability and thermodynamic characterization in an enzymatic reaction at the single molecule level, <em>Phys. A</em> <strong>390:</strong> 4038-4044. <a href="http://dx.doi.org/10.1016/j.physa.2011.05.032" rel="noopener" target="_blank" title="http://dx.doi.org/10.1016/j.physa.2011.05.032">DOI: 10.1016/j.physa.2011.05.032</a></li>
+       <li><strong>M. Santillán</strong> and H. Qian (2011) Irreversible thermodynamics in multiscale stochastic dynamical systems, <em>Phys. Rev. E</em> <strong>83:</strong> 041130. <a href="http://link.aps.org/doi/10.1103/PhysRevE.83.041130" rel="noopener" target="_blank" title="http://link.aps.org/doi/10.1103/PhysRevE.83.041130">DOI: 10.1103/PhysRevE.83.041130</a></li>
+       <li>E. S. Zeron and <strong>M. Santillán</strong> (2011) Numerical solution of the chemical master equation: uniqueness and stability of the stationary distribution for chemical networks, and mRNA bursting in a gene network with negative feedback, <em>Meth. Enzymol.</em> <strong>487 C:</strong> 149-171. <a href="http://dx.doi.org/10.1016/B978-0-12-381270-4.00006-8" rel="noopener" target="_blank" title="http://dx.doi.org/10.1016/B978-0-12-381270-4.00006-8">DOI: 10.1016/B978-0-12-381270-4.00006-8</a></li>
+      </ol>
+      
+      <p><strong>2008-2010</strong></p>
+      
+      <ol>
+       <li>O. Díaz-Hernández and <strong>M. Santillán</strong> (2010) Bistable behavior of the <em>lac</em> operon in <em>E. coli</em> when induced with a mixture of lactose and TMG, <em>Frontiers in Physiology</em> <strong>1:</strong> 22, <a href="http://dx.doi.org/10.3389/fphys.2010.00022" rel="noopener" target="_blank" title="http://dx.doi.org/10.3389/fphys.2010.00022">DOI: 10.3389/fphys.2010.00022</a></li>
+       <li>O. Díaz-Hernández, R. Páez-Hernández, and <strong>M. Santillán</strong> (2010) Thermodynamic performance vs. dynamic stability in an enzymatic reaction model, <em>Physica A</em> <strong>389:</strong> 3476-3483, <a href="http://dx.doi.org/10.1016/j.physa.2010.04.006" rel="noopener" target="_blank" title="http://dx.doi.org/10.1016/j.physa.2010.04.006">DOI: 10.1016/j.physa.2010.04.006</a></li>
+       <li>E. S. Zeron and <strong>M. Santillán</strong> (2010) Distributions for negative-feedback-regulated stochastic gene expression: dimension reduction and numerical solution of the chemical master equation, <em>J. Theor. Biol.</em> <strong>264:</strong> 377-385, <a href="http://dx.doi.org/10.1016/j.jtbi.2010.02.004" rel="noopener" target="_blank" title="http://dx.doi.org/10.1016/j.jtbi.2010.02.004">DOI: 10.1016/j.jtbi.2010.02.004</a></li>
+       <li>A. Hernández-Valdez, <strong>M. Santillán</strong>, and E. S. Zeron (2010) Cycling expression and cooperative operator interaction in the <em>trp</em> operon of Escherichia coli, <em>J. Theor. Biol.</em> <strong>263:</strong> 340-352, <a href="http://dx.doi.org/10.1016/j.jtbi.2009.12.005" rel="noopener" target="_blank" title="http://dx.doi.org/10.1016/j.jtbi.2009.12.005">DOI: 10.1016/j.jtbi.2009.12.005</a></li>
+       <li><strong>M. Santillán</strong> and M. C. Mackey (2008) Dynamic stability vs thermodynamic performance in a simple model for a Brownian motor, <em>Phys. Rev. E.</em> <strong>78:</strong> 061122, <a href="http://dx.doi.org/10.1103/PhysRevE.78.061122" rel="noopener" target="_blank" title="http://dx.doi.org/10.1103/PhysRevE.78.061122">DOI: 10.1103/PhysRevE.78.061122</a></li>
+       <li><strong>M. Santillán</strong> (2008) Reflections on the origin, meaning, and future of Systems Biology, <em>Math. Model. Nat. Phenom.</em> <strong>3:</strong> 98-101. <a href="http://dx.doi.org/10.1051/mmnp:2008057" rel="noopener" target="_blank" title="http://dx.doi.org/10.1051/mmnp:2008057">DOI: 10.1051/mmnp:2008057</a></li>
+       <li><strong>M. Santillán</strong> (2008) On the use of Hill functions in mathematical models of gene regulatory networks, <em>Math. Model. Nat. Phenom.</em> <strong>3:</strong> 85-97, <a href="http://dx.doi.org/10.1051/mmnp:2008056" rel="noopener" target="_blank" title="http://dx.doi.org/10.1051/mmnp:2008056">DOI: 10.1051/mmnp:2008056</a></li>
+       <li><strong>M. Santillán</strong>, E. S. Zeron, and J. L. del Río-Correa (2008) A formal derivation of the Gibbs entropy for classical systems following the Schrödinger quantum mechanical approach, <em>Eur. J. Phys.</em> <strong>29:</strong> 629-638, <a href="http://dx.doi.org/10.1088/0143-0807/29/3/022" rel="noopener" target="_blank" title="http://dx.doi.org/10.1088/0143-0807/29/3/022">DOI: 10.1088/0143-0807/29/3/022</a></li>
+       <li><strong>M. Santillán</strong> and M. C. Mackey (2008) Quantitative approaches to the study of bistability in the <em>lac</em> operon of <em>Escherichia coli</em>, <em>J. Roy. Soc. Interface</em> <strong>5 Suppl. 1:</strong> S29-S39, <a href="http://dx.doi.org/10.1098/rsif.2008.0086.focus" rel="noopener" target="_blank" title="http://dx.doi.org/10.1098/rsif.2008.0086.focus">DOI: 10.1098/rsif.2008.0086.focus</a></li>
+       <li>R. Páez-Hernández and <strong>M. Santillán</strong> (2008) Comparison of the energetic properties and the dynamical stability in a mathematical model of the stretch reflex, <em>Physica A</em> <strong>387:</strong> 3574-3582, <a href="http://dx.doi.org/10.1016/j.physa.2008.02.046" rel="noopener" target="_blank" title="http://dx.doi.org/10.1016/j.physa.2008.02.046">DOI: 10.1016/j.physa.2008.02.046</a></li>
+       <li>L. Guzmán-Vargas and <strong>M. Santillán</strong> (2008) Comparative analysis of the complex transcription-factor gene regulatory networks of <em>E. coli</em> and <em>S. cerevisiae</em>, <em>BMC Systems Biology</em> <strong>2:</strong> 13, <a href="http://dx.doi.org/10.1186/1752-0509-2-13" rel="noopener" target="_blank" title="http:/dx.doi.org/10.1186/1752-0509-2-13">DOI: 10.1186/1752-0509-2-13</a></li>
+       <li><strong>M. Santillán</strong> and M. C. Mackey (2008) A Proposed Mechanism for the Interaction of the Segmentation Clock and the Determination Front in Somitogenesis, <em>PLoS ONE</em> <strong>3:</strong> e1561, <a href="http://dx.doi.org/10.1371/journal.pone.0001561" rel="noopener" target="_blank" title="http:/dx.doi.org/10.1371/journal.pone.0001561">DOI: 10.1371/journal.pone.0001561</a></li>
+       <li><strong>M. Santillán</strong> (2008) Bistable behaviour in a model of the lac operon in Escherichia coli with variable growth rate, <em>Biophys. J.</em> <strong>94:</strong> 2065-2081, <a href="http://dx.doi.org/10.1529/biophysj.107.118026" rel="noopener" target="_blank" title="http:/dx.doi.org/10.1529/biophysj.107.118026">DOI: 10.1529/biophysj.107.118026</a></li>
+      </ol>
+      
+      <p><strong>2004-2007</strong></p>
+      
+      <ol>
+       <li>J. G. Rodríguez-González, <strong>M. Santillán</strong>, A. C. Fowler, and M. C. Mackey (2007) The segmentation clock in mice: interaction between the Wnt and Notch signalling pathways, <em>J. Theor. Biol.</em> <strong>248:</strong> 37-47, <a href="http://dx.doi.org/10.1016/j.jtbi.2007.05.003" rel="noopener" target="_blank" title="http:/dx.doi.org/10.1016/j.jtbi.2007.05.003">DOI: 10.1016/j.jtbi.2007.05.003</a></li>
+       <li><strong>M. Santillán</strong>, M. C. Mackey, and E. S. Zeron (2007) Origin of bistability in the lac operon, <em>Biophys. J. </em><strong>92:</strong> 3830-3842, <a href="http://dx.doi.org/10.1529/biophysj.106.101717" rel="noopener" target="_blank" title="http:/dx.doi.org/10.1529/biophysj.106.101717">DOI: 10.1529/biophysj.106.101717</a></li>
+       <li>R. Páez-Hernández, F. Angulo-Brown, and <strong>M. Santillán</strong> (2006) Dynamic robustness and thermodynamic optimization in a non-endoreversible Curzon-Ahlborn engine, <em>J. Non-equilib. Thermodyn.</em> <strong>31:</strong> 173-188, <a href="http://dx.doi.org/10.1515/JNETDY.2006.008" rel="noopener" target="_blank" title="http:/dx.doi.org/10.1515/JNETDY.2006.008">DOI: 10.1515/JNETDY.2006.008</a></li>
+       <li><strong>M. Santillán </strong>and E. S. Zeron (2006) Analytical study of the multiplicity of regulatory mechanisms in the tryptophan operon, <em>Bull. Math. Biol.</em> <strong>68:</strong> 343-359, <a href="http://dx.doi.org/10.1007/s11538-005-9025-0" rel="noopener" target="_blank" title="http:/dx.doi.org/10.1007/s11538-005-9025-0">DOI: 10.1007/s11538-005-9025-0</a></li>
+       <li>M. C. Mackey and <strong>M. Santillán</strong> (2005) Mathematics, biology, and physics: interactions and interdependence, <em>Notices of the AMS</em> <strong>52:</strong> 832-846</li>
+       <li><strong>M. Santillán</strong> and M. C. Mackey (2005) Dynamic behaviour of the B12 riboswitch, <em>Phys. Biol.</em> <strong>2:</strong> 29-35,<a href="http://dx.doi.org/10.1088/1478-3967/2/1/004" rel="noopener" target="_blank" title="http:/dx.doi.org/10.1088/1478-3967/2/1/004">DOI: 10.1088/1478-3967/2/1/004</a></li>
+       <li><strong>M. Santillán</strong> and E. S. Zeron (2004) Dynamic influence of feedback enzyme inhibition and transcription attenuation on the tryptophan operon response to nutritional shifts, <em>J. Theor. Biol.</em> <strong>231: </strong>287-298, <a href="http://dx.doi.org/10.1016/j.jtbi.2004.06.023" rel="noopener" target="_blank" title="http:/dx.doi.org/10.1016/j.jtbi.2004.06.023">DOI: 10.1016/j.jtbi.2004.06.023</a></li>
+       <li>N. Yildrim, <strong>M. Santillán</strong>, Daisuke Horike, and M. C. Mackey (2004) Dynamics and bistability in a reduced model of the lac operon, <em>Chaos</em> <strong>14:</strong> 279-292, <a href="http://dx.doi.org/10.1063/1.1689451" rel="noopener" target="_blank" title="http:/dx.doi.org/10.1063/1.1689451">DOI: 10.1063/1.1689451</a></li>
+       <li>M. C. Mackey, <strong>M. Santillán</strong>, and N. Yildrim (2004) Modeling operon dynamics: the tryptophan and lactose operons as paradigms, <em>CR Biologies</em> <strong>327:</strong> 211-224, <a href="http://dx.doi.org/10.1016/j.crvi.2003.11.009" rel="noopener" target="_blank" title="http:/dx.doi.org/10.1016/j.crvi.2003.11.009">DOI: 10.1016/j.crvi.2003.11.009</a></li>
+       <li><strong>M. Santillán</strong> and M. C. Mackey (2004) Influence of catabolite repression and inducer exclusion on the bistable behavior of the lac operon, <em>Biophys J.</em> <strong>86:</strong> 1282-1292, <a href="http://dx.doi.org/10.1016/S0006-3495(04)74202-2" rel="noopener" target="_blank" title="http://dx.doi.org/10.1016/S0006-3495(04)74202-2">DOI:10.1016/S0006-3495(04)74202-2</a></li>
+       <li><strong>M. Santillán</strong> and M. C. Mackey (2004) Why the lysogenic state of phage lambda is so stable: A mathematical modeling approach, <em>Biophys J.</em> <strong>86:</strong> 75-84, <a href="http://dx.doi.org/10.1016/S0006-3495(04)74085-0" rel="noopener" target="_blank" title="http://dx.doi.org/10.1016/S0006-3495(04)74085-0">DOI:10.1016/S0006-3495(04)74085-0</a></li>
+      </ol>
+      
+      <p><strong>2000-2003</strong></p>
+      
+      <ol>
+       <li><strong>M. Santillán</strong> (2003) Allometric scaling law in a simple oxygen exchanging system: possible implications on the biological allometric scaling laws, <em>J. Theor. Biol.</em> <strong>223:</strong> 249-257, <a href="http://dx.doi.org/10.1016/S0022-5193(03)00097-3" rel="noopener" target="_blank" title="http:/dx.doi.org/10.1016/S0022-5193(03)00097-3">DOI: 10.1016/S0022-5193(03)00097-3</a></li>
+       <li><strong>M. Santillán</strong>, R. Hernández-Pérez, and R. Delgado-Lezama (2003) A numeric study of the noise-induced tremor in a mathematical model of the stretch reflex, <em>J. Theor. Biol.</em> <strong>222:</strong> 99-115, <a href="http://dx.doi.org/10.1016/S0022-5193(03)00016-X" rel="noopener" target="_blank" title="http:/dx.doi.org/10.1016/S0022-5193(03)00016-X">DOI: 10.1016/S0022-5193(03)00016-X</a></li>
+       <li>F. Angulo-Brown, L. A. Arias-Hernández, and <strong>M. Santillán</strong> (2002) On some connections between first order irreversible thermodynamics and finite-time thermodynamics, <em>Rev. Mex. Fis.</em> <strong>48 Suppl. 1: </strong>182-192</li>
+       <li><strong>M. Santillán</strong>, G. Maya, and F. Angulo-Brown (2001) Local stability analysis of an endoreversible Curxon-Ahlborn-Novikov engine working in a maximum-power-like regime, <em>J. Phys. D: Appl. Phys. </em><strong>34:</strong> 2068-2072, <a href="http://dx.doi.org/10.1088/0022-3727/34/13/318" rel="noopener" target="_blank" title="http://dx.doi.org/10.1088/0022-3727/34/13/318">DOI: 10.1088/0022-3727/34/13/318</a></li>
+       <li><strong>M. Santillán</strong>, and M. C. Mackey (2001) Dynamic behaviour in mathematical models of the tryptophan operon, <em>Chaos</em> <strong>11:</strong> (1) 261-268, <a href="http://dx.doi.org/10.1063/1.1336806" rel="noopener" target="_blank" title="http://dx.doi.org/10.1063/1.1336806">DOI:10.1063/1.1336806</a></li>
+       <li><strong>M. Santillán</strong> and M. C. Mackey (2001) Dynamic regulation of the tryptophan operon: A modeling study and comparison with experimental data, <em>Proc. Natl. Acad. Sci. USA</em> <strong>98:</strong> (4) 1364-1369, <a href="http://dx.doi.org/10.1073/pnas.98.4.1364" rel="noopener" target="_blank" title="http://dx.doi.org/10.1073/pnas.98.4.1364">DOI: 10.1073/pnas.98.4.1364</a></li>
+       <li><strong>M. Santillán</strong>, F. Angulo-Brown, and O. Chavoya-Aceves (2001) Formalization of common power and efficiency definitions for energy-converting intracellular biochemical processes, <em>Rev. Mex. Fis.</em> <strong>47: </strong>158-161</li>
+       <li><strong>M. Santillán</strong>, J. M. Mahaffy, J. Bélair, and M. C. Mackey (2000) Regulation of Platelet Production: The Normal Response to Perturbation and Cyclical Platelet Disease. <em>J. Theor. Biol.</em> <strong>206:</strong> 585-603, <a href="http://dx.doi.org/10.1006/jtbi.2000.2149" rel="noopener" target="_blank" title="http://dx.doi.org/10.1006/jtbi.2000.2149">DOI:10.1006/jtbi.2000.2149</a></li>
+      </ol>
+      
+      <p><strong>1992-1999</strong></p>
+      
+      <ol>
+       <li><strong>M. Santillán</strong> (1999) A Thermodynamic Optimization Analysis of a Possible Relation between the Parameters that Determine the Energetics of Muscle Contraction in Steady State, <em>J. Theor Biol.</em> <strong>199:</strong>105-112, <a href="http://dx.doi.org/10.1006/jtbi.1999.0946" rel="noopener" target="_blank" title="http://dx.doi.org/10.1006/jtbi.1999.0946">DOI:10.1006/jtbi.1999.0946</a></li>
+       <li><strong>M. Santillán</strong> (1998) The optimum weight of a baseball bat, <em>Rev. Mex. Fis.</em> <strong>44:</strong> 529-532</li>
+       <li>G. Ares de Parga and <strong>M. Santillán</strong> (1998) A variational approach to some properties of endorreversible heat engines, <em>Rev. Mex. Fis.</em><strong> 44:</strong> 373-376</li>
+       <li><strong>M. Santillán</strong>, G. Ares de Parga, and F. Angulo-Brown (1998) Black body radiation and the maximum entropy production regime, <em>Eur. J. Phys.</em> <strong>19:</strong> 361-369, <a href="http://dx.doi.org/10.1088/0143-0807/19/4/008" rel="noopener" target="_blank" title="http://dx.doi.org/10.1088/0143-0807/19/4/008">DOI: 10.1088/0143-0807/19/4/008</a></li>
+       <li><strong>M. Santillán</strong> and F. Angulo-Brown (1997) A thermodynamic approach to the compromise between power and efficiency in muscle contraction, <em>J. Theor. Biol.</em> <strong>189:</strong> 391-398,<a href="http://dx.doi.org/10.1006/jtbi.1997.0526" rel="noopener" target="_blank" title="http://dx.doi.org/10.1006/jtbi.1997.0526">DOI:10.1006/jtbi.1997.0526</a></li>
+       <li><strong>M. Santillán</strong>, L. A. Arias-Hernández and F. Angulo-Brown (1997) Some optimization criteria for biological systems in linear irreversible thermodynamics, <em>Il Nuovo Cimento</em> <strong>19D:</strong> 99-109</li>
+       <li>G. Ortega-Pierres, A. Alarcón, et al. (1996) Impact of new methodologies in the study of parasites, <em>Gac. Med. Mex.</em> <strong>132:</strong> 475-517</li>
+       <li>F. Angulo-Brown, <strong>M. Santillán</strong>, and E. Calleja Quevedo (1995) Thermodynamic optimality in some biochemical reactions, <em>Il Nuovo Cimento</em> <strong>17D:</strong> 85-89</li>
+       <li>E. Frixione, L. Ruiz, <strong>M. Santillán</strong>, L. V. de Vargas, J. M. Tejero, and A. H. Undeen (1992) Dynamics of polar filamet discharge and sporoplasm expulsion by microsporidian spores, <em>Cell Motil. Cytoskel.</em> <strong>22: </strong>38-50, <a href="http://dx.doi.org/10.1002/cm.970220105" rel="noopener" target="_blank" title="http://dx.doi.org/10.1002/cm.970220105">DOI: 10.1002/cm.970220105</a></li>
+      </ol>
+
+      <h5>Proceedings</h5>
+
+      <ol>
+        <li value="1"><strong>M. Santillán</strong> (2007) Complex dynamic behaviour in simple gene regulatory networks, <em>AIP Conference Proceedings</em> <strong>885:</strong> 161-184, <a href="http://dx.doi.org/10.1063/1.2563191" target="_blank" title="http://dx.doi.org/10.1063/1.2563191">DOI: 10.1063/1.2563191</a></li>
+       </ol>
+       
+          </div>
+
+    <div id="books" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Authored Books</h5>
+
+      <ol>
+        <li>M. C. Mackey, <strong>M. Santillán</strong>, M. Tyran-Kamińska, and E. S. Zeron, <em>Simple Mathematical Models of Gene Regulatory Dynamics</em>, New York: Springer (2016), <a href="http://doi.org/10.1007/978-3-319-45318-7" target="_blank" title="http://doi.org/10.1007/978-3-319-45318-7">DOI: 10.1007/978-3-319-45318-7</a></li>
+        <li><strong>M. Santillán, </strong><em>Chemical Kinetics, Stochastic Processes, and Irreversible Thermodynamics, </em>New York: Springer (2014), <a href="http://doi.org/10.1007/978-3-319-06689-9" target="_blank" title="http://doi.org/10.1007/978-3-319-06689-9">DOI: 10.1007/978-3-319-06689-9</a></li>
+       </ol>
+       
+      <h5>Edited Books</h5>
+
+      <ol>
+        <li value="2">O. L. Hernández Chávez, M. E. Pacheco Quintanilla, <strong>M. Santillán Zerón</strong> and H. J. Uriarte Rivera, editors, <em>La revolución einsteniana de 1905, después ya nada fue igual (published in Spanish, title translation: On Einstein&#39;s revolution from 1905, nothing was the same afterwards)</em>, México City: Instituto Politécnico Nacional Press (2005).</li>
+        <li value="3">O. L. Hernández Chávez, M. E. Pacheco Quintanilla, and <strong>M. Santillán</strong> Zerón, editors, <em>Tendencias actuales de la Física en México (published in Spanish, title translation: Current trends of Physics in México)</em>, México City: Instituto Politécnico Nacional Press (2008).</li>
+       </ol>
+
+       <h5>Book Chapters</h5>
+
+       <ol>
+        <li value="1"><strong>M. Santillán Zerón</strong> (2005) Einstein y la consolidación de la teoría atómica de la materia (published in Spanish, title translation: Einstein and the consolidation of the atomic theory of matter), in O. L. Hernández Chávez, et al., editors, La revolución einsteniana de 1905, después ya nada fue igual,México City: Instituto Politécnico Nacional Press, pp 189-202.</li>
+        <li value="2"><strong>M. Santillán</strong>, Eduardo S. Zeron, and M. C. Mackey(2008) Systems Biology of the Tryptophan Operon,in L. B. Wilson, editor, Mathematical biology research trends, Hauppauge, NY: Nova Science Pulishers, ISBN: 978-1-60456-141-8.</li>
+        <li value="3"><strong>M. Santillán Zerón</strong> (2008) Biología de Sistemas, tendencias interdisciplinarias en Biología (published in Spanish, title translation: Systems Biology, interdisciplinary trends in Biology), in O. L. Hernández Chávez, et al., editors, Tendencias actuales de la Física en México, México City: Instituto Politécnico Nacional Press, pp 263-277.</li>
+        <li value="4"><strong>M. Santillán Zerón</strong> (2009) Robustez dinámica y optimización termodinámica en sistemas biológicos converidores de energía (published in Spanish, title translation: Dynamic robustness and thermodynamic optimization in energy-converting biological systems), in L. García-Colín Scherer, et al., editors, Física Biológica en México, temas selectos 2 México City: El Colegio Nacional Press, pp 259-274.</li>
+        <li value="5"><strong>M. Santillán-Zerón</strong> (2010) Max Planck: los dilemas de un hombre justo (published in Spahish, title translation: Max Planck: the dilemas of a righteous man), in L. García-Colín Scherer, J. L. del Río-Correa, and H. Uriarte-Rivera, editors, Max Planck: a 150 años de su nacimiento, México City: El Colegio Nacional, pp 27-39, ISBN: 978-607-7630-54-08</li>
+        <li value="6">E. Salazar-Cabazos and <strong>M. Santillán</strong> (2012) Transcriptional bursting in the tryptophan operon of <em>E. coli</em> and its effect on the system stochastic dynamics, in Rakesh R. Sharma, editor, Enzyme Inhibition and Bioapplications, Rijeka, Croatia: InTech, pp 179-194, ISBN: 978-953-51-0585-5</li>
+       </ol>
+       
+       
+    </div>  
+
+    <div id="essays" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Science Popularization & Philosophy Essays</h5>
+      <ol>
+        <li class="entry-title"><a href="https://avanceyperspectiva.cinvestav.mx/cual-es-la-ecuacion-de-movimiento-de-una-particula-cargada-en-electrodinamica-clasica/" target="_blank">¿Cuál es la ecuación de movimiento de una partícula cargada en electrodinámica clásica?</a></li>
+        <li class="entry-title"><a href="https://avanceyperspectiva.cinvestav.mx/por-que-hacer-una-tesis/" target="_blank">¿Por qué hacer una tesis?</a></li>
+        <li class="entry-title"><a href="https://avanceyperspectiva.cinvestav.mx/encuentros-cercanos-de-tres-tipos/" target="_blank">Encuentros cercanos de tres tipos</a></li>
+        <li class="entry-title"><a href="http://www.revistac2.com/como-se-forma-un-cientifico/" target="_blank">&iquest;Cómo se forma un científico?</a></li>
+        <li class="entry-title"><a href="http://www.revistac2.com/un-cuento-de-cazadores/" target="_blank">Un cuento de cazadores</a></li>
+        <li class="entry-title"><a href="http://www.revistac2.com/que-significa-ser-un-cientifico-exitoso/" target="_blank">&iquest;Qué significa ser un científico exitoso?</a></li>
+        <li class="entry-title"><a href="http://www.revistac2.com/cronobiologia/" target="_blank">Cronobiología</a></li>
+        <li class="entry-title"><a href="http://www.revistac2.com/la-interesante-historia-de-los-virus-come-bacterias/" target="_blank">La interesante historia de los virus come bacterias</a></li>
+        <li class="entry-title"><a href="http://www.revistac2.com/trabajando-en-la-interdisciplina/" target="_blank">Trabajando en la Interdisciplina</a></li>
+        <li class="entry-title"><a href="http://www.revistac2.com/la-importancia-de-contar-un-buen-cuento/" target="_blank">La importancia de contar un buen cuento</a></li>
+        <li class="entry-title"><a href="http://www.revistac2.com/bondades-microbianas/" target="_blank">Bondades microbianas</a></li>
+        <li class="entry-title"><a href="http://www.revistac2.com/cuestion-de-escalas/" target="_blank">Cuestión de escalas</a></li>
+        <li class="entry-title"><a href="http://www.revistac2.com/newton-einstein-y-el-cubismo/" target="_blank">Newton, Einstein y el Cubismo</a></li>
+        <li class="entry-title"><a href="http://www.revistac2.com/mariano-mozino-un-cientifico-mexicano-novohispano-injustamente-olvidado/" target="_blank">Mariano Moziño, un científico mexicano novohispano injustamente olvidado</a></li>
+        <li class="entry-title"><a href="http://www.revistac2.com/luz-y-vida/" target="_blank">Luz y vida, La influyente conferencia de Niels Bohr</a></li>
+        <li class="entry-title"><a href="http://www.revistac2.com/los-motivos-de-un-cientifico/" target="_blank">Los motivos de un científico</a></li>
+        <li class="entry-title"><a href="http://www.revistac2.com/sobre-la-produccion-de-carne-in-vitro/" target="_blank">Sobre la producción de carne in vitro</a></li>
+        <li class="entry-title"><a href="http://www.revistac2.com/se-acerca-el-fin-de-los-desayunos-con-cafe-y-cereal-con-platano/" target="_blank">&iquest;Se acerca el fin de los desayunos con café y cereal con plátano?</a></li>
+        <li class="entry-title"><a href="https://miscelaneamatematica.org/download/tbl_articulos.pdf2.adde74386815d7ed.343930322e706466.pdf" target="_blank">De Darwin y Mendel a la Biología de Sistemas</a></li>
+        <li class="entry-title"><a href="https://www.amc.edu.mx/revistaciencia/index.php/ediciones-anteriores/7-vol-57-num-3-julio-septiembre-2006/comunicaciones-libres58/14-la-fisica-en-el-origen-de-la-biologia-molecular" target="_blank">La física en el origen de la biología molecular</a></li>
+        </ol>
+
+        <h5>Older Essays</h5>
+        <ol>
+        <li><strong>M. Santillán</strong> (2000) Galileo Galilei en perspectiva, <em>Investigación Hoy</em> <strong>96:</strong> 49-55</li>
+        <li><strong>M. Santillán</strong> (2002) Perspectiva histórica de la educación superior: reflexiones sobre su situación en México, <em>Bol. Soc. Mex. Fís.</em> <strong>16:</strong> 27-35</li>
+        <li><strong>M. Santillán</strong> (2008) La biología de sistemas, un nuevo paradigma en biología, <em>Conversus</em> <strong>69:</strong> 12-14</li>
+       </ol>
+       
+    </div>  
+  </div>
+</div>
+
+
+<!-- Research Container -->
+<div class="w3-container" id="courses">
+  <div class="w3-content" style="max-width:800px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-indigo w3-wide">COURSES</span></h5>
+    <h5 class="w3-padding-16">MATHEMATICAL BIOLOGY</h5>
+
+    <p>This course is meant for graduate students of the MSc program in Biomedical Engineering and Physics, offered at Cinvestav Monterrey. It&#39;s objective is to introduce the students to basic concepts and techniques in Nonlinear Dynamics and Bifurcation Theory, as well as to the fascinating world of Mathematical Modeling of Biological Systems. To this end, we study some classical examples of mathematical models of biological phenomena, at scales ranging from a single cell to ecosystems. While studying these models, new mathematical and numerical-analysis techniques are introduced. At the end, the students are expected to have a working knowledge of the subject known as Mathematical Biology.</p>
+
+<p>Course outline:</p>
+
+<ol>
+ <li>Introduction to ordinary differential equations.
+ <ol>
+  <li>Terminal velocity.</li>
+  <li>Why clouds don&#39;t fall?</li>
+  <li>Why microbes swimming differs so much from that of vertebrates.</li>
+ </ol>
+ </li>
+ <li>Exponential growth and decay.
+ <ol>
+  <li>Stochastic processes underlying these models.</li>
+  <li>Growth and decay rate constants.</li>
+  <li>Half time life.</li>
+  <li>Life expectancy.</li>
+  <li>Replication and death propensities.</li>
+  <li>How long an exponentially growing bacterial culture would take to weight as much as planet Earth.</li>
+  <li>Radiocarbon dating. How does it work.</li>
+ </ol>
+ </li>
+ <li>Logistic growth model.
+ <ol>
+  <li>Inter-species competition for resources and its effect upon growth rate constant.</li>
+  <li>Influence on Darwin&#39;s theory of evolution.</li>
+  <li>Analytical solution vs. qualitative analysis.</li>
+  <li>Steady state definition.</li>
+  <li>Steady state stability.</li>
+  <li>Logistic growth plus additional externally caused death rate.</li>
+  <li>Population extinction as a transcritical bifurcation.</li>
+ </ol>
+ </li>
+ <li>Competitive Lotka-Volterra equations.
+ <ol>
+  <li>Steady state stability analysis of 2-dimensional dynamic systems.</li>
+  <li>Saddle node bifurcations, bistability, and competitive exclusion principle.</li>
+ </ol>
+ </li>
+ <li>SIR epidemiology model.
+ <ol>
+  <li>Transcritical bifurcation and disease extinction.</li>
+  <li>Basic reproductive number.</li>
+  <li>Vaccination</li>
+ </ol>
+ </li>
+ <li>Biological oscillators.
+ <ol>
+  <li>Lotka-Volterra predator-prey oscillatory model and Hopf bifurcation.</li>
+  <li>Van der Pol oscillator.</li>
+  <li>Hodgkin-Huxley model</li>
+  <li>Fitzhugh-Nagumo model</li>
+ </ol>
+ </li>
+</ol>
+
+<p>References:</p>
+
+<ol>
+ <li>J. Milton and T. Ohira, <em>Mathematics as a laboratory tool; dynamics, delays and noise, </em>2014, Springer, ISBN: 978-1-4614-9096-8</li>
+ <li>S. H. Strogatz, <em>Nonlinear dynamics and chaos; with applications to Physics, Biology, Chemistry and Engineering, second edition, </em>2015, CRC Press, ISBN: ISBN-13: 978-0813349107</li>
+</ol>
+
+    
+    <h5 class="w3-padding-32">INTRODUCTION TO POGRAMMING AND STATISTICS</h5>
+
+    <p>This is a propedeutic course for students applying to the MSc program in Biomedical Engineering and Physics, offered at Cinvestav Monterrey. It&#39;s objective is to introduce the students to basic concepts and techniques in Python programming , as well as to the those of statistical analysis of experimental data. To this end, we study some classical examples of mathematical models of biological phenomena, at scales ranging from a single cell to ecosystems. At the end, the students are expected to have a working knowledge of these subjects.</p>
+
+<p>Course outline:</p>
+
+<ol>
+ <li>Introduction to Python.
+ <ol>
+  <li>Data types (integer, floating point, string, Boolean).</li>
+  <li>Basic arithmetic operations.</li>
+  <li>Variables.</li>
+  <li>Data structures (tupple, list, array).</li>
+  <li>Conditional (it, then, else).</li>
+  <li>Cycles (for, while)</li>
+ </ol>
+ </li>
+ <li>Structured Programming Paradigm
+ <ol>
+  <li>Flux Diagrams</li>
+  <li>Functions.</li>
+ </ol>
+ </li>
+ <li>Plotting in Python (Matplotlib).</li>
+ <li>Programming exercises (write functions for)
+ <ol>
+  <li>Computing the factorial of an integer number.</li>
+  <li>Finding the maximum of a list of floating point numbers.</li>
+  <li>Ordering a list of floating point numbers from maximum to minimum.</li>
+  <li>Finding the resolution of a list of floating point numbers in Python.</li>
+  <li>Finding our if an integer number is prime or not.</li>
+  <li>Giving a list of namers, ordering it alphabetically and finding the frequency of each name.</li>
+  <li>Estimating the value of pi via Montecarlo method.</li>
+  <li>Computing the time a 1-dimensional Brownian Particle takes to escape from a narrow tube closed on one extreme.</li>
+ </ol>
+ </li>
+ <li>Measurement Process.
+ <ol>
+  <li>Accuracy and uncertainty.</li>
+  <li>Random and systematic errors.</li>
+ </ol>
+ </li>
+ <li>Random variables and probability distributions.
+ <ol>
+  <li>Intrinsic variability and variability introduced by experimental errors.</li>
+ </ol>
+ </li>
+ <li>Sampling.
+ <ol>
+  <li>Histogram</li>
+  <li>Mean value and standard deviation estimation.</li>
+ </ol>
+ </li>
+ <li>Regression.
+ <ol>
+  <li>Linear Regression.</li>
+  <li>Power-law and exponential regressions.</li>
+ </ol>
+ </li>
+ <li>Statistics exercises.</li>
+</ol>
+
+<p>&nbsp;References:</p>
+
+<p>&nbsp;</p>
+
+<ol>
+ <li>Y. Daniel Liang, <em>Introduction to programming using Python,</em> Pearson, 2013, ISBN: 978-0-13-274718-9</li>
+ <li>Thomas Haslwanter, <em>An introduction to statistics with Python, with applications to the life sciences,</em> Springer, 2016, ISBN: 978-3-319-28315-9</li>
+</ol>
+
+  </div>
+
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-grayscale-min w3-center w3-indigo w3-padding-16 w3-large">
+  <p></p>
+</footer>
+
+
+<script>
+  // Tabbed Menu
+  function abreMenu(evt, menuName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("menu");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" w3-indigo", "");
+    }
+    document.getElementById(menuName).style.display = "block";
+    evt.currentTarget.firstElementChild.className += " w3-indigo";
+  }
+  document.getElementById("miEnlace").click();
+  </script>
+  
+</body>
+</html>
+
